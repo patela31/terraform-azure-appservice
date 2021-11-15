@@ -1,6 +1,7 @@
 resource "azurerm_resource_group" "rg-app" {
   name     = "atulrg-publicmodule"
   location = "West Europe"
+  description = "test"
 }
 
 module "webapp" {
